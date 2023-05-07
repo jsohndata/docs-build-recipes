@@ -16,11 +16,13 @@ const links = [
 export function getRedirect(req, res) {
   const id = req.params.id;
 
+  console.log("TO", typeof id);
+
   // Check for the valiity of the id
-  /* One liner: const isValidId = id => typeof id === "number" && id >= 0 && id < links.length; */
+  /* One liner: const isValidId = id => id >= 0 && id < links.length; */
   const isValidId = (id) => { 
-    typeof id === "number" && id >= 0 && id < links.length;
-  };
+    return (id >= 0 && id < links.length);
+  };  
   
   let redirectLink;
 
@@ -30,11 +32,9 @@ export function getRedirect(req, res) {
       break;
 
     default:
-      if (!isValidId(id)) {
-        redirectLink = links[0];
-      } else {
-        redirectLink = links[id];
-      }
+      isValidId(id)
+        ? redirectLink = links[id]
+        : redirectLink = links[0];
       break;
   }
 
