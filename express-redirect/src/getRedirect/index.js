@@ -19,10 +19,7 @@ export function getRedirect(req, res) {
   console.log("TO", typeof id);
 
   // Check for the valiity of the id
-  /* One liner: const isValidId = id => id >= 0 && id < links.length; */
-  const isValidId = (id) => { 
-    return (id >= 0 && id < links.length);
-  };  
+  const isValidId = id => id >= 0;
   
   let redirectLink;
 
@@ -31,11 +28,14 @@ export function getRedirect(req, res) {
       redirectLink = links[Math.floor(Math.random() * links.length)];
       break;
 
-    default:
-      isValidId(id)
-        ? redirectLink = links[id]
-        : redirectLink = links[0];
-      break;
+      default:
+        isValidId(id)
+          // if id equals end of the array, redirect to the first link--in this case 2.
+          ? id == links.length
+              ? redirectLink = links[2]
+              : redirectLink = links[id]
+          : redirectLink = links[0];
+        break;
   }
 
   // Redirect to the link
