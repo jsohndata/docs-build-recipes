@@ -1,0 +1,65 @@
+/* CSS Image Zoom
+************************************* */
+.image-container figure {
+  overflow: hidden;
+  border: 5px solid #fff;
+  transition: all 0.9s ease-in-out;
+}
+
+.image-container figure:hover {
+  transition: all 0.9s ease-in-out;
+  border: 5px solid #cf4bf0;
+}
+
+.image-container figure img {
+  transform: scale(1.0);
+  transition: all 0.9s ease-in-out;
+}
+
+.image-container figure img:hover {
+  transform: scale(1.6);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(23, 1, 1, 0.831);
+}
+
+@media screen and (max-width: 768px) {
+  .image-container figure img:hover {
+    transform: scale(1.0);
+  }
+}
+
+
+
+
+
+
+/* Ignore: Just for setup
+************************************* */
+body {
+  background: rgb(224,69,137);
+  background: linear-gradient(184deg, rgba(224,69,137,1) 0%, rgba(237,134,179,1) 11%, rgba(148,187,233,1) 52%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+  }
+}
+
+
+
