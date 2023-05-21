@@ -1,22 +1,22 @@
 /* CSS Image Zoom
 ************************************* */
-.image-container figure {
+figure {
   overflow: hidden;
   border: 5px solid #fff;
   transition: all 0.9s ease-in-out;
 }
 
-.image-container figure:hover {
+figure:hover {
   transition: all 0.9s ease-in-out;
   border: 5px solid #cf4bf0;
 }
 
-.image-container figure img {
+figure img {
   transform: scale(1.0);
   transition: all 0.9s ease-in-out;
 }
 
-.image-container figure img:hover {
+figure img:hover {
   transform: scale(1.6);
   transition: all 0.5s ease-in-out;
   box-shadow: 0 0 10px rgba(23, 1, 1, 0.831);
