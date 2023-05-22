@@ -1,0 +1,51 @@
+/* CSS: Button Effect
+************************************* */
+.button-effect {
+  cursor: pointer;
+  transform: scale(1.0);
+  transition: transform 0.23s ease-in-out;
+}
+
+.button-effect:hover {
+  transform: scale(1.13);
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0));
+}
+
+/* Disable hover effects on mobile */
+@media (max-width: 768px) {
+  .button-effect:hover
+  {
+      transform: scale(1.0);
+      filter: none;
+  }
+}
+
+
+
+
+/* Ignore: Just for setup
+************************************* */
+body {
+  background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.image-container img {
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+  }
+}
