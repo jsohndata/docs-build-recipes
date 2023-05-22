@@ -1,4 +1,4 @@
-# CSS Image Zoom
+# CSS: Image Zoom
 [![readme](./images/readme.png)](https://codepen.io/jsohndata/pen/oNaQRQV)
 A simply elegant CSS technique for gracefully zooming images using the "transform" and "overflow hidden" properties.
 

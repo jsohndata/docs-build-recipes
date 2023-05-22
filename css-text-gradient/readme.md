@@ -1,4 +1,4 @@
-# Adding Gradient to Text
+# CSS: Text Gradient
 [![screenshot](./images/readme.webp)](https://codepen.io/jsohndata/pen/wvyxoYdZ)
 
 ```
