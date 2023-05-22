@@ -1,5 +1,6 @@
 # CSS: Background Blend Mode
 [![screen shot](./images/readme.webp)](https://codepen.io/jsohndata/pen/dygwvEd)
+
 Discover the simplicity of adjusting your background's image quality effortlessly by utilizing the `background-blend-mode`.
 
 <br>

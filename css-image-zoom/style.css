@@ -1,4 +1,4 @@
-/* CSS Image Zoom
+/* CSS Needed
 ************************************* */
 figure {
   /* hide the overflow of the scaled image */
@@ -36,7 +36,7 @@ figure img:hover {
 
 
 
-/* Ignore: Just for setup
+/* Ignore For Setup
 ************************************* */
 body {
   background: rgb(224,69,137);

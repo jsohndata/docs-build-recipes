@@ -1,5 +1,5 @@
-/* CSS: Background Blend
-******************************** */
+/* CSS Needed
+************************************* */
 .main-container {
   width: 100%;
   height: 100vh;
@@ -18,8 +18,8 @@
 
 
 
-/* Ignore: For Setup
-******************************** */
+/* Ignore For Setup
+************************************* */
 body { margin: 0; padding: 0; }
 
 .content {
