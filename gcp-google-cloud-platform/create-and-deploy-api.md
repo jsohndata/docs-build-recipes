@@ -1,6 +1,6 @@
 # Note: How to deploy an API on GCP (Google Cloud Platform)
 
-## 1) Initialize Hosting
+## 1.0) Initialize Hosting
 
 ### 1.1) Run Command
 `firebase init hosting`
@@ -17,8 +17,9 @@ Remove the following
 * public/404.html`
 
 <br>
+<br>
 
-## 2) Functions
+## 2.0) Initialize Functions
 Note: Functions DIR is just the API. Functions cannot see outside its own directory.
 
 ### 2.1) Run command
@@ -27,7 +28,7 @@ Note: Functions DIR is just the API. Functions cannot see outside its own direct
 * ES lint: `No`
 * Install dependecnes: `Yes`
 
-
+<br>
 
 ### Main Direcotry
 
@@ -74,6 +75,7 @@ Bottom: Add the following.
 
 Note: Export a cloud function stating whenever a request comes in send to our Express app
 
+<br>
 <br>
 
 ### Sample Code
