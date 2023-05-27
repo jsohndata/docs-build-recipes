@@ -85,8 +85,8 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-app.use (cors());
 app.use(express.json());
+app.use (cors());
 
 app.get('/test1', (req, res) => res.send('Test 21 Cloud function'));
 app.get('/test2', (req, res) => res.send('Test 2 Cloud function'));
