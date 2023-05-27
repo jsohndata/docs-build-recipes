@@ -63,7 +63,7 @@ Add the following
 ### 2.5-functions) Express, Cors and others
 Beyond Express and Cors I install `dotenv` and `mongodb`
 
-`cd functions && npm install express cors dotenv mongodb`
+`npm install express cors dotenv mongodb`
 
 
 ### 2.6-functions) index.js
