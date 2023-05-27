@@ -42,12 +42,22 @@ functions/.env
 ```
 
 #### 2.3-Main) firebase.json
-Open firebase.json, add code below. I generally put it below "hosting"
+Open firebase.json, add code below. 
 ```
 "rewrites": [{
     "source": "**",
     "function": "api"
 }],
+```
+
+Sample how it would appear on firebase.jsohn
+```
+  "hosting": {
+    "public": "public",
+    "rewrites": [{
+      "source": "**",
+      "function": "api"
+  }],
 ```
 
 <br>
