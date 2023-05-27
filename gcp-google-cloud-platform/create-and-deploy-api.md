@@ -28,6 +28,8 @@ Note: Functions DIR is just the API. Functions cannot see outside its own direct
 * Install dependecnes: Yes
 
 ### 2.2) .gitignore
+> Note: I have only one in the main directory, delete the one inside fuctions.
+
 ```
 functions/node_modules
 functions/.env
