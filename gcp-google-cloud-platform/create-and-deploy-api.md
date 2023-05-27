@@ -20,7 +20,7 @@ Remove the following
 <br>
 
 ## 2.0) Initialize Functions
-Note: Functions DIR is just the API. Functions cannot see outside its own directory.
+> Note: !important >> Functions is the API. Functions cannot see outside its own directory.
 
 ### 2.1) Run command
 `firebase init functions`
