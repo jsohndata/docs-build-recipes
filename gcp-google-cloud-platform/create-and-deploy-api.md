@@ -97,18 +97,25 @@ Note: Export a cloud function stating whenever a request comes in send to our Ex
 
 ### Sample Code
 ```
-import functions from "firebase-functions";
-import express from "express";
-import cors from "cors";
+import functions from 'firebase-functions';
+import express from 'express';
+import cors from 'cors';
 
 const app = express();
 app.use(express.json());
-app.use (cors());
+app.use(cors());
+const rootUri = process.cwd();
 
-app.get('/test1', (req, res) => res.send('Test 21 Cloud function'));
-app.get('/test2', (req, res) => res.send('Test 2 Cloud function'));
+/* Root and 404 */
+app.get("/", (req,res) => {
+  res.status(200).send("I am gRoot");
+});
 
-export const api = functions.https.onRequest( app );
+app.get("*", (req,res) => {
+  res.status(404).send("404 Not Found");
+});
+
+export const api = functions.https.onRequest(app);
 
 ```
 
