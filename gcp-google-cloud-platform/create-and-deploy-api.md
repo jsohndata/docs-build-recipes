@@ -89,6 +89,6 @@ export const api = functions.https.onRequest( app );
 <br>
 
 ## 3.0) Test and Deploy
-emulate: `firebase emulators:start`
+Emulate: `firebase emulators:start`
 
 Deploy: `firebase deploy`
