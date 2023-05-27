@@ -27,7 +27,11 @@ Note: Functions DIR is just the API. Functions cannot see outside its own direct
 * ES lint: `No`
 * Install dependecnes: `Yes`
 
-### 2.2) .gitignore
+
+
+### Main Direcotry
+
+#### 2.2-Main) .gitignore
 > Note: I have only one in the main directory, delete the one inside fuctions. #DRY
 
 ```
@@ -36,8 +40,7 @@ functions/.env
 .DS_Store
 ```
 
-### 2.3) firebase.json
-
+#### 2.3-Main) firebase.json
 Open firebase.json, add code below. I generally put it below "hosting"
 ```
 "rewrites": [{
@@ -46,20 +49,23 @@ Open firebase.json, add code below. I generally put it below "hosting"
 }],
 ```
 
-### 2.4) functions > packages.json
+<br>
+
+### Functions Direcotry
+
+### 2.4-functions) packages.json
 
 Add the following
 
 `"type": "module"`
 
-### 2.5) functions > Express, Cors and others
+### 2.5-functions) Express, Cors and others
 Beyond Express and Cors I install `dotenv` and `mongodb`
 
 `cd functions && npm install express cors dotenv mongodb`
 
 
-
-### 2.6) functions > index.js
+### 2.6-functions) index.js
 Top: Replace `require` with the following
 `import functions from "firebase-functions"`
 
