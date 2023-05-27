@@ -7,9 +7,9 @@
 * Project: Use an existing - Make sure it is set to Blaze Plan.
 
 Press enter for the following
-* public directory: public
-* rewrite all urls to /index.html: No
-* automatic builds and deploys with GitHub: No
+* public directory: `public`
+* rewrite all urls to /index.html: `No`
+* automatic builds and deploys with GitHub: `No`
 
 ### 1.2) Clean up
 Remove the following
@@ -23,12 +23,12 @@ Note: Functions DIR is just the API. Functions cannot see outside its own direct
 
 ### 2.1) Run command
 `firebase init functions`
-* Javascript: Yes
-* ES lint: No
-* Install dependecnes: Yes
+* Javascript: `Yes`
+* ES lint: `No`
+* Install dependecnes: `Yes`
 
 ### 2.2) .gitignore
-> Note: I have only one in the main directory, delete the one inside fuctions.
+> Note: I have only one in the main directory, delete the one inside fuctions. #DRY
 
 ```
 functions/node_modules
