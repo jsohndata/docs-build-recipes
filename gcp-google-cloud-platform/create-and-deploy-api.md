@@ -30,7 +30,7 @@ Note: Functions DIR is just the API. Functions cannot see outside its own direct
 
 <br>
 
-### Main Direcotry
+### Main Directory
 
 #### 2.2-Main) .gitignore
 > Note: I have only one in the main directory, delete the one inside fuctions. #DRY
@@ -52,7 +52,7 @@ Open firebase.json, add code below. I generally put it below "hosting"
 
 <br>
 
-### Functions Direcotry
+### Functions Directory
 
 ### 2.4-functions) packages.json
 
