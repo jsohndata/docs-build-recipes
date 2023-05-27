@@ -52,12 +52,19 @@ Open firebase.json, add code below.
 
 Sample how it would appear on firebase.jsohn
 ```
+{
   "hosting": {
     "public": "public",
     "rewrites": [{
       "source": "**",
       "function": "api"
   }],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
 ```
 
 <br>
