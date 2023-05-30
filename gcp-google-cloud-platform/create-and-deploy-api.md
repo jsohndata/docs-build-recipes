@@ -80,7 +80,7 @@ Add the following
 ### 2.5-functions) Express, Cors and others
 Beyond Express and Cors I install `dotenv` and `mongodb`
 
-`npm install express cors dotenv mongodb`
+`cd functions && npm install express cors dotenv mongodb`
 
 
 ### 2.6-functions) index.js
@@ -90,12 +90,17 @@ Top: Replace `require` with the following
 Bottom: Add the following.
 `export const api = functions.https.onRequest( app );`
 
-Note: Export a cloud function stating whenever a request comes in send to our Express app
+<br>
+<br>
+
+### 2.7-functions) CD to main directory
+Once all setup is done, CD back to the main directory.
+>⚠️ !! IMPORTANT >> Perform all git commands from the main directory not functions
 
 <br>
 <br>
 
-### Sample Code
+### Sample Express Code
 ```
 import functions from 'firebase-functions';
 import express from 'express';
