@@ -20,7 +20,7 @@ Remove the following
 <br>
 
 ## 2.0) Initialize Functions
-> Note: !important >> Functions is the API. Functions cannot see outside its own directory.
+>⚠️⚠️ !IMPORTANT: Functions is the API. Functions cannot see outside its own directory.
 
 ### 2.1) Run command
 `firebase init functions`
@@ -33,7 +33,7 @@ Remove the following
 ### Main Directory
 
 #### 2.2-Main) .gitignore
-> Note: I have only one in the main directory, delete the one inside fuctions. #DRY
+>⚠️⚠️ !IMPORTANT: I have only one in the main directory, delete the one inside fuctions. #DRY
 
 ```
 functions/node_modules
@@ -95,7 +95,7 @@ Bottom: Add the following.
 
 ### 2.7-functions) CD to main directory
 Once all setup is done, CD back to the main directory.
->⚠️ !! IMPORTANT >> Perform all git commands from the main directory not functions
+>⚠️⚠️ !IMPORTANT: Perform all git commands from the main directory not functions
 
 <br>
 <br>
