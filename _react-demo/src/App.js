@@ -1,6 +1,10 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Modal from './Modal';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+
+
 
 function App() {
   return (
