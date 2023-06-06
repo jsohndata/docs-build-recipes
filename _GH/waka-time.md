@@ -19,3 +19,5 @@
   ```
   
 6. Wait about an hour for the widget to show on your readme. Give it 24 hour to populate with data.
+
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jsohndata&theme=github_dark&layout=compact" width="800" alt="languages graph"  />
