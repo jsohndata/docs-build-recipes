@@ -1,7 +1,11 @@
 # How to get Wakatime to your GitHub
 
+## What is WakaTime?
 WakaTime is a personal analytics service for programmers that shows you how you spend your time and helps you be more productive.
 
+<br>
+
+## How to Install
 1. Signup at [wakatime.com](wakatime)
 
 2. Fill out profile info [wakatime.com/settings/profile](https://wakatime.com/settings/profile)
