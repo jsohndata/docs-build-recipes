@@ -1,0 +1,30 @@
+:root {
+  --padding: 20px;
+  --margin-bottom: 10px;
+  --height: 90px;
+}
+
+
+section,
+footer {
+  padding: var(--padding);
+  margin-bottom: var(--margin-bottom);
+}
+
+nav {
+  background-color: pink;
+  position: sticky;
+  top: 0;
+  height: var(--height);
+  margin-bottom: var(--margin-bottom);
+}
+
+section {
+  background-color: greenyellow;
+}
+
+footer {
+  background-color: #131313;
+  color: #f4f5f6;
+  text-align: center;
+}
