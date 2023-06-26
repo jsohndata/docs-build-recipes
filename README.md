@@ -1,2 +1,2 @@
 # Build Recipes
-A collection of documents of build recipes, processes, how to's et cetera that I have gathered for web development and programming purposes.
+I have compiled a comprehensive assortment of documents encompassing build recipes, processes, how-tos, and various resources pertinent to web development and programming.
